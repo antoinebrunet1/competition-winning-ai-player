@@ -8,10 +8,4 @@ My teammates and I agreed that I would submit the implementation in my name as t
 
 ## 💡 About my algorithm 💡
 
-My implementation file is in
-
-```
-src/main/java/ca/uqam/info/solanum/students/halma/aibattle/RobotMoveSelectorImpl.java
-```
-
-I map every move to the shortest distance between the target of the move and the closest target field. Then, I get the shortest of the mapped distances. Finally, I return any move that has that distance.
+My implementation file is in [`src/main/java/ca/uqam/info/solanum/students/halma/aibattle/RobotMoveSelectorImpl.java`](src/main/java/ca/uqam/info/solanum/students/halma/aibattle/RobotMoveSelectorImpl.java). I map every move to the shortest distance between the target of the move and the closest target field. Then, I get the shortest of the mapped distances. Finally, I return any move that has that distance.
