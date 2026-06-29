@@ -20,4 +20,4 @@ My implementation file is in [`src/main/java/ca/uqam/info/solanum/students/halma
 
 ### ⏱️ Time complexity ⏱️
 
-The algorithm is $O\left(n^2\right)$ where $n$ is the number of target fields.
+The algorithm is $O\left(n\right)$ where $n$ is the number of target fields.
