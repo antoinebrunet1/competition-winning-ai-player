@@ -9,3 +9,15 @@ My teammates and I agreed that I would submit the implementation in my name as t
 ## 💡 About my algorithm 💡
 
 My implementation file is in [`src/main/java/ca/uqam/info/solanum/students/halma/aibattle/RobotMoveSelectorImpl.java`](src/main/java/ca/uqam/info/solanum/students/halma/aibattle/RobotMoveSelectorImpl.java). I map every move to the shortest distance between the target of the move and the closest target field. Then, I get the shortest of the mapped distances. Finally, I return any move that has that distance.
+
+### ⏱️ Time complexity ⏱️
+
+The time complexity is
+
+$$\mathcal{O}\left(N^2\right) \text{ where}$$
+
+$$N=\max{(M, T)} \text{ where}$$
+
+$$M=\text{number of all possible moves and}$$
+
+$$T=\text{number of target fields.}$$
