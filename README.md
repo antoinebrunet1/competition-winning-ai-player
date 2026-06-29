@@ -20,12 +20,4 @@ My implementation file is in [`src/main/java/ca/uqam/info/solanum/students/halma
 
 ### ⏱️ Time complexity ⏱️
 
-The time complexity is
-
-$$\mathcal{O}\left(N^2\right) \text{ where}$$
-
-$$N=\max{\left(M, T\right)} \text{ where}$$
-
-$$M=\text{number of all possible moves and}$$
-
-$$T=\text{number of target fields.}$$
+The algorithm is $O\left(n^2\right)$ where $n$ is the number of target fields.
