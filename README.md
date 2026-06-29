@@ -16,7 +16,7 @@ The time complexity is
 
 $$\mathcal{O}\left(N^2\right) \text{ where}$$
 
-$$N=\max{(M, T)} \text{ where}$$
+$$N=\max{\left(M, T\right)} \text{ where}$$
 
 $$M=\text{number of all possible moves and}$$
 
